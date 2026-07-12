@@ -1,2 +1,0 @@
-# testsite
-testsite mekktimm-events
