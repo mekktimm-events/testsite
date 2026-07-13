@@ -307,23 +307,29 @@ footer{text-align:center;padding:32px 20px;color:var(--muted);border-top:1px sol
 
 }
 
-.partner-logo {
-  width: 100%;
-  max-width: 320px;
-  height: 140px;
+.partner-logo{
 
-  margin: 0 auto 24px;
+    width:100%;
+    max-width:320px;
+    height:140px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    margin:0 auto 25px;
 
-  padding: 18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-  background: rgba(255,255,255,.04);
-  border-radius: 18px;
+    padding:18px;
 
-  overflow: hidden;
+    background:#ffffff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(0,0,0,.06);
+
 }
 
 .partner-logo img {
