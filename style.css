@@ -547,23 +547,35 @@ footer{text-align:center;padding:32px 20px;color:var(--muted);border-top:1px sol
 
 /* Partner-Logo */
 
-.partner-logo {
-    width: 100%;
-    max-width: 320px;
-    height: 140px;
-    margin: 0 auto 25px;
+.partner-logo{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:100%;
+    max-width:320px;
+    height:140px;
 
-    padding: 18px;
-    background: #ffffff;
-    border-radius: 18px;
-    overflow: hidden;
+    margin:0 auto 25px;
 
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .06);
-    transition: transform .3s ease, box-shadow .3s ease;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:18px;
+
+    background:linear-gradient(
+        135deg,
+        rgba(255,255,255,.08),
+        rgba(255,176,0,.05)
+    );
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.04);
+
 }
 
 .partner-logo img {
@@ -587,19 +599,34 @@ footer{text-align:center;padding:32px 20px;color:var(--muted);border-top:1px sol
 
 /* Sponsoren-Logo */
 
-.sponsor-logo {
-    width: 100%;
-    height: 110px;
-    margin-bottom: 18px;
+.sponsor-logo{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:100%;
+    height:110px;
 
-    padding: 14px;
-    background: #ffffff;
-    border-radius: 18px;
-    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom:18px;
+
+    padding:14px;
+
+    background:linear-gradient(
+        135deg,
+        rgba(255,255,255,.08),
+        rgba(255,176,0,.05)
+    );
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.04);
+
 }
 
 .sponsor-logo img {
